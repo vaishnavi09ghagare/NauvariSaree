@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    text-align: center;
+    color: rgb(122, 33, 33);
+}
+
+.card {
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Optional: To enhance readability */
+    padding: 10px; /* Optional: To add padding around the text */
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: 700px;
+    height:10rem;
+} 
+
+
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 18, 75);
+    justify-content: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+    position: relative;
+    text-align: center;
+    background-color: rgb(18, 18, 75);
+    color: white;
+}
+
+
+.list-group-item {
+    font-size: 30px; /* Adjust the size as needed */
+  }

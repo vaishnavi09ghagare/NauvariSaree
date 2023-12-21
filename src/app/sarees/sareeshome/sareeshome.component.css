@@ -1,0 +1,28 @@
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: 700px;
+    height:8rem;
+    width: 100%;
+    font-size: 50x;
+} 
+
+.head{
+    background-color: rgb(223, 186, 141);
+}
+
+.ui grid{
+    height: 100%;
+}
+
+.ui.vertical.fluid.tabular.menu .item {
+    font-size: 18px; /* Change the font size to your desired value */
+  }

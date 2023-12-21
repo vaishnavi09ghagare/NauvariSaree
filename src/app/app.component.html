@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+   
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://udyogvikas.com/"> 
+        <img src="http://udyogvikas.com/wp-content/uploads/2023/11/cropped-Untitled_design__8_-removebg-preview-1-135x41.png " alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="aboutus" routerLinkActive="active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="sarees" routerLinkActive="active">Nauvari Sadi</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search" style="height: 5rem; margin-left: 750px;">
+          <img src="http://udyogvikas.com/wp-content/uploads/2023/11/WhatsApp_Image_2023-11-24_at_10.09.57_AM-removebg-preview.png" alt="">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <router-outlet></router-outlet>
+
+</body>
+</html>
